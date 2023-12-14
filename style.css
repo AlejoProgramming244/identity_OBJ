@@ -1,0 +1,105 @@
+.header {
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 65%;
+    height: 20%;
+    color: black;
+    background-color: lightblue;
+    transition: color 0.5s ease, width 0.5s ease, height 0.5s ease; /* Eliminé la transición de background-color aquí */
+    overflow: hidden;
+}
+
+.header:hover {
+    width: 80%;
+    height: 24%;
+    color: white;
+    background-color: lightblue; /* Agregué el color de fondo aquí para mantenerlo constante al hacer hover */
+}
+
+.header b span:nth-child(1) {
+    display: block;
+    font-size: 50px; /* Tamaño de fuente inicial para el primer span */
+    font-family: 'Courier New', Courier, monospace;
+    transition: font-size 0.5s ease, font-family 0.5s ease;
+}
+
+.header b span:nth-child(2) {
+    display: block;
+    font-size: 30px; /* Tamaño de fuente inicial para el segundo span */
+    transition: font-size 0.5s ease;
+}
+
+
+.header:hover b span:nth-child(1) {
+    font-size: 60px; /* Tamaño de fuente al hacer hover para el primer span */
+}
+
+.header:hover b span:nth-child(2) {
+    font-size: 40px; /* Tamaño de fuente al hacer hover para el segundo span */
+}
+
+.FootManualGR
+{
+    bottom: 0;
+    background-color: gray;
+    float: none;
+    position: fixed;
+}
+
+.btn_secondary
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    text-shadow: 15px 5px 10px black;
+    color: white;
+    background-color: gray;
+    height: 40px;
+    font-size: 20px;
+    transition:height 0.3s ease, backgroud-color 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.btn_secondary:hover
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    font-size: 35px;
+    text-shadow: 15px 5px 10px black;
+    height: 65px;
+    background-color: lightgray;
+    color: black;
+}
+
+.btn-danger
+{
+    border-radius: 60px;
+    margin: 20px;
+
+    width: 40%;
+    height: 8%;
+
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+    transition:font-size 0.5s ease, width 0.5s ease, height 0.5s ease, margin 0.5s ease;
+}
+
+.btn-danger:hover
+{
+    border-radius: 60px;
+    margin: 10px;
+
+    width: 45%;
+    height: 10%;
+
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.d
+{
+    float: right;
+}

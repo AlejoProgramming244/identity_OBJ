@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.arrow-container {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #333;
+    border-radius: 150px;
+    color: #fff;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: left 0.3s ease-in-out;
+}
+
+.arrow {
+    font-size: 24px;
+}
+
+.navigation 
+{
+    position: fixed;
+    top: 0;
+    left: -200px; /* Oculta la barra de navegación al principio */
+    height: 100%;
+    width: 200px;
+    background-color: #333;
+    padding-top: 60px;
+    transition: left 0.3s ease-in-out;
+}
+
+.navigation ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li 
+{
+    padding: 15px;
+    text-align: center;
+}
+
+.navigation a 
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: color 0.3s ease-in-out;
+}
+
+.navigation a:hover 
+{
+    color: #ff8c00;
+}
+
+
+.header1 {
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 99%;
+    height: 15%;
+    color: white;
+    background-color: lightgreen;
+    transition: color 2s ease, height 0.5s ease, background-color 2s ease; /* Eliminé la transición de background-color aquí */
+    overflow: hidden;
+}
+
+.header1:hover {
+    width: 99%;
+    height: 20%;
+    color: black;
+    background-color: lightgoldenrodyellow; /* Agregué el color de fondo aquí para mantenerlo constante al hacer hover */
+}
+
+.header1 b span:nth-child(1) {
+    display: block;
+    font-size: 30px; /* Tamaño de fuente inicial para el primer span */
+    font-family: 'Courier New', Courier, monospace;
+    transition: font-size 0.5s ease, font-family 0.5s ease;
+}
+
+.header1 b span:nth-child(2) {
+    display: block;
+    font-size: 10px; /* Tamaño de fuente inicial para el segundo span */
+    transition: font-size 0.5s ease;
+}
+
+
+.header1:hover b span:nth-child(1) {
+    font-size: 35px; /* Tamaño de fuente al hacer hover para el primer span */
+}
+
+.header1:hover b span:nth-child(2) {
+    font-size: 20px; /* Tamaño de fuente al hacer hover para el segundo span */
+}
+
+.FootManualGR
+{
+    bottom: 0;
+    background-color: gray;
+    float: none;
+    position: fixed;
+}
+
+.btn_secondary
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    text-shadow: 15px 5px 10px black;
+    color: white;
+    background-color: gray;
+    height: 40px;
+    font-size: 20px;
+    transition:height 0.3s ease, backgroud-color 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.btn_secondary:hover
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    font-size: 35px;
+    text-shadow: 15px 5px 10px black;
+    height: 65px;
+    background-color: lightgray;
+    color: black;
+}
+
+.btn-danger
+{
+    border-radius: 60px;
+    margin: 20px;
+
+    width: 40%;
+    height: 8%;
+
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+    transition:font-size 0.5s ease, width 0.5s ease, height 0.5s ease, margin 0.5s ease;
+}
+
+.btn-danger:hover
+{
+    border-radius: 60px;
+    margin: 10px;
+
+    width: 45%;
+    height: 10%;
+
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+Canvas
+{
+    border-radius: 60px;
+
+    margin-top: 50px;
+}
+
+.d
+{
+    float: right;
+}
